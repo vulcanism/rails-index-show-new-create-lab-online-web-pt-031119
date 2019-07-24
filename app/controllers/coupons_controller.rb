@@ -1,7 +1,7 @@
 class CouponsController < ActionController::Base
   
   def index
-    @coupons = 
+    @coupons = Coupon.all
   end
   
 end
