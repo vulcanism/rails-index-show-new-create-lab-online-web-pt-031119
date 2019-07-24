@@ -8,4 +8,7 @@ class CouponsController < ActionController::Base
     @coupon = Coup.find_by(params[:id])
   end
   
+  def new
+  end
+  
 end
