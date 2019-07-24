@@ -13,7 +13,8 @@ class CouponsController < ActionController::Base
   
   def create
     @coupon = Coupon.new
-    
+    @coupon.coupon_code = 
+    @coupon.store = 
     
   end
   
