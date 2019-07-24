@@ -5,7 +5,7 @@ class CouponsController < ActionController::Base
   end
   
   def show
-    
+    @coupon = 
   end
   
 end
