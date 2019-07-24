@@ -16,7 +16,7 @@ class CouponsController < ActionController::Base
     @coupon.coupon_code = params[:coupon][:coupon_code]
     @coupon.store = params[:coupon][:store]
     @coupon.save
-    
+    redirect_to 
   end
   
 end
