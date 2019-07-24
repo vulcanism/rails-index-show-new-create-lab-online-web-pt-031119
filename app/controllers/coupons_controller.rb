@@ -4,4 +4,8 @@ class CouponsController < ActionController::Base
     @coupons = Coupon.all
   end
   
+  def show
+    
+  end
+  
 end
