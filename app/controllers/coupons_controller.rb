@@ -14,6 +14,7 @@ class CouponsController < ActionController::Base
   def create
     @coupon = Coupon.new
     
+    
   end
   
 end
